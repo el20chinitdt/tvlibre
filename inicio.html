@@ -245,14 +245,13 @@
     box-shadow: 0 4px 12px var(--accent-glow);
   }
 
-  /* Grilla de Canales */
+  /* Grilla de Canales contenida para emparejar simétricamente con el .wrap */
   .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
     gap: 16px;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 24px 48px 24px;
+    width: 100%;
+    margin: 24px 0 0 0;
   }
 
   @media (min-width: 640px) {
@@ -434,2072 +433,2073 @@
       <span id="count" class="count" aria-live="polite"></span>
     </div>
   </section>
-</main>
 
-<section id="grid" class="grid">
- <a class="canal" href="/tvlibre/en-vivo-telefe.html">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="Telefe en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/telefe.png" title="Telefe"/>
-     </div>
-     <h2 class="title">Telefe</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/el-trece">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="El Trece en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/eltrece.webp" title="El Trece (13)"/>
-     </div>
-     <h2 class="title">El Trece</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/el-nueve">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="El Nueve en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/nueve.webp" title="El Nueve (9)"/>
-     </div>
-     <h2 class="title">El Nueve</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/tv-publica">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="TV Pública en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/tvpublica.webp" title="TV Pública"/>
-     </div>
-     <h2 class="title">TV Pública</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/america-tv">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="América TV en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/america.webp" title="América TV"/>
-     </div>
-     <h2 class="title">América TV</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/cronica">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="Crónica TV en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/cronica.png" title="Crónica TV"/>
-     </div>
-     <h2 class="title">Crónica TV</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/c5n">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="C5N en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/c5n.webp" title="C5N"/>
-     </div>
-     <h2 class="title">C5N</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/tn">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="TN en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/tn.png" title="TN"/>
-     </div>
-     <h2 class="title">TN</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/a24">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="A24 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/a24.webp" title="A24"/>
-     </div>
-     <h2 class="title">A24</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/canal-26">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="Canal 26 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/canal26.webp" title="Canal 26"/>
-     </div>
-     <h2 class="title">Canal 26</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/ln">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="La Nacion en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/ln.webp" title="La Nacion (LN+)"/>
-     </div>
-     <h2 class="title">La Nación</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/dtv">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="Diputados TV en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/dtv.webp" title="Diputados TV (DTV)"/>
-     </div>
-     <h2 class="title">Diputados TV</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/volver">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="Volver en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/volver.webp" title="Volver"/>
-     </div>
-     <h2 class="title">Volver</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/ciudad-magazine">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="Ciudad Magazine en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/ciudad.webp" title="Ciudad Magazine"/>
-     </div>
-     <h2 class="title">Ciudad Magazine</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/bravotv">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="Bravo TV en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/bravotv.png" title="Bravo TV"/>
-     </div>
-     <h2 class="title">Bravo TV</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/nettv">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="Net TV en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/nettv.webp" title="Net TV"/>
-     </div>
-     <h2 class="title">Net TV</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/ip">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="Ip Noticias en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/ip.webp" title="Ip Noticias"/>
-     </div>
-     <h2 class="title">Ip Noticias</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/encuentro">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="Encuentro en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/encuentro.webp" title="Encuentro"/>
-     </div>
-     <h2 class="title">Encuentro</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/canaldelaciudad">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="Canal de la Ciudad en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/canaldelaciudad.webp" title="Canal de la Ciudad"/>
-     </div>
-     <h2 class="title">Canal de la Ciudad</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/televida">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="Televida en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/televida.webp" title="Televida (Canal 9 Mendoza)"/>
-     </div>
-     <h2 class="title">Televida</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/metro">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="Metro Nos Vemos en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/metro.png" title="Metro Nos Vemos"/>
-     </div>
-     <h2 class="title">Metro Nos Vemos</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/kzo">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="KZO en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/kzowhite.png" title="KZO"/>
-     </div>
-     <h2 class="title">KZO</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/canal12cordoba/">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="Canal 12 de Córdoba en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/docor.png" title="Canal 12 (doce Córdoba)"/>
-     </div>
-     <h2 class="title">Canal 12 de Córdoba</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/argentinisima/">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="Argentinísima Satelital en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/arsat.png" title="Argentinísima Satelital"/>
-     </div>
-     <h2 class="title">Argentinísima</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/rural">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="Rural en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/rural.webp" title="Rural"/>
-     </div>
-     <h2 class="title">Rural</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/caracoltv">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Colombia</span>
-     </div>
-     <div class="logo">
-      <img alt="Caracol TV en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/caracoltv.webp" title="Caracol TV"/>
-     </div>
-     <h2 class="title">Caracol TV</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/eventos/sin-chat/?r=aHR0cHM6Ly9kZXNkZXBhcmFndWF5LmNvbS9leHRlcm5hbC8/dmVudXNtZWRpYQ==">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Paraguay</span>
-     </div>
-     <div class="logo">
-      <img alt="Venus Paraguay en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/venus.png" title="Venus Media Paraguay"/>
-     </div>
-     <h2 class="title">Venus</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/canal5-mx">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">México</span>
-     </div>
-     <div class="logo">
-      <img alt="Canal 5 MX en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/canal5.webp" title="Canal 5 MX"/>
-     </div>
-     <h2 class="title">Canal 5</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/tyc-sports">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="TyC Sports en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/tyc.webp" title="TyC Sports"/>
-     </div>
-     <h2 class="title">TyC Sports</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/tnt-sports">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="TNT Sports Premium Argentina en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/tntar.svg" title="TNT Sports Premium Argentina"/>
-     </div>
-     <h2 class="title">TNT Sports Premium</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/espn-premium">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="ESPN Premium en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/espnpr.webp" title="ESPN Premium"/>
-     </div>
-     <h2 class="title">ESPN Premium</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/dsports">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-     </div>
-     <div class="logo">
-      <img alt="DirecTV Sports (DSports) en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/dsports.webp" title="DSports"/>
-     </div>
-     <h2 class="title">DSports</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/dsports-2">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-     </div>
-     <div class="logo">
-      <img alt="DirecTV Sports 2 (DSports 2) en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/dsports2.webp" title="DSports 2"/>
-     </div>
-     <h2 class="title">DSports 2</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/dsports-plus">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-     </div>
-     <div class="logo">
-      <img alt="DirecTV Sports + (DSports +) en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/dsportsplus.webp" title="DSports Plus"/>
-     </div>
-     <h2 class="title">DSports Plus</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/espn">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-     </div>
-     <div class="logo">
-      <img alt="ESPN 1 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/espn.webp" title="ESPN 1"/>
-     </div>
-     <h2 class="title">ESPN 1</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/espn-2">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-     </div>
-     <div class="logo">
-      <img alt="ESPN 2 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/espn2.webp" title="ESPN 2"/>
-     </div>
-     <h2 class="title">ESPN 2</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/espn-3">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-     </div>
-     <div class="logo">
-      <img alt="ESPN 3 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/espn3.webp" title="ESPN 3"/>
-     </div>
-     <h2 class="title">ESPN 3</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/espn-4">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-     </div>
-     <div class="logo">
-      <img alt="ESPN 4 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/espn4.webp" title="ESPN 4"/>
-     </div>
-     <h2 class="title">ESPN 4</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/espn-5">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-     </div>
-     <div class="logo">
-      <img alt="ESPN 5 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/espn5.webp" title="ESPN 5"/>
-     </div>
-     <h2 class="title">ESPN 5</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/espn-6">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-     </div>
-     <div class="logo">
-      <img alt="ESPN 6 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/espn6.webp" title="ESPN 6"/>
-     </div>
-     <h2 class="title">ESPN 6</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/espn-7">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-     </div>
-     <div class="logo">
-      <img alt="ESPN 7 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/espn7.png" title="ESPN 7"/>
-     </div>
-     <h2 class="title">ESPN 7</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/fox-sports">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="FOX Sports 1 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/foxnew.png" title="FOX Sports"/>
-     </div>
-     <h2 class="title">FOX Sports 1</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/fox-sports-2">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="FOX Sports 2 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/foxnew2.png" title="FOX Sports 2"/>
-     </div>
-     <h2 class="title">FOX Sports 2</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/fox-sports-3">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="FOX Sports 3 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/foxnew3.png" title="FOX Sports 3"/>
-     </div>
-     <h2 class="title">FOX Sports 3</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/fox-sports-mx">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-      <span class="badge">México</span>
-     </div>
-     <div class="logo">
-      <img alt="FOX Sports MX en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/foxmx.png" title="FOX Sports 1 México"/>
-     </div>
-     <h2 class="title">FOX Sports 1 MX</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/fox-sports-2-mx">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-      <span class="badge">México</span>
-     </div>
-     <div class="logo">
-      <img alt="FOX Sports 2 MX en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/fox2mx.png" title="FOX Sports 2 México"/>
-     </div>
-     <h2 class="title">FOX Sports 2 MX</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/fox-sports-3-mx">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-      <span class="badge">México</span>
-     </div>
-     <div class="logo">
-      <img alt="FOX Sports 3 MX en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/fox3mx.png" title="FOX Sports 3 | México"/>
-     </div>
-     <h2 class="title">FOX Sports 3 MX</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/fox-sports-premium-mx">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-      <span class="badge">México</span>
-     </div>
-     <div class="logo">
-      <img alt="FOX Sports Premium México en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/foxpr.png" title="FOX Sports Premium México"/>
-     </div>
-     <h2 class="title">FOX Sports Premium MX</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/espn-mx">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-      <span class="badge">México</span>
-     </div>
-     <div class="logo">
-      <img alt="ESPN 1 México en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/espn.webp" title="ESPN 1 México"/>
-     </div>
-     <h2 class="title">ESPN 1 MX</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/espn-2-mx">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-      <span class="badge">México</span>
-     </div>
-     <div class="logo">
-      <img alt="ESPN 2 México en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/espn2.webp" title="ESPN 2 México"/>
-     </div>
-     <h2 class="title">ESPN 2 MX</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/espn-3-mx">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-      <span class="badge">México</span>
-     </div>
-     <div class="logo">
-      <img alt="ESPN 3 México en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/espn3.webp" title="ESPN 3 México"/>
-     </div>
-     <h2 class="title">ESPN 3 MX</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/espn-4-mx">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-      <span class="badge">México</span>
-     </div>
-     <div class="logo">
-      <img alt="ESPN 4 México en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/espn4.webp" title="ESPN 4 México"/>
-     </div>
-     <h2 class="title">ESPN 4 MX</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/tudn">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-     </div>
-     <div class="logo">
-      <img alt="TUDN en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/tudn.png" title="TUDN"/>
-     </div>
-     <h2 class="title">TUDN</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/espn-deportes">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-     </div>
-     <div class="logo">
-      <img alt="ESPN Deportes en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/espndep.png" title="ESPN Deportes"/>
-     </div>
-     <h2 class="title">ESPN Deportes</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/fox-deportes">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-     </div>
-     <div class="logo">
-      <img alt="FOX Deportes en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/foxdep.png" title="FOX Deportes"/>
-     </div>
-     <h2 class="title">FOX Deportes</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/deportv">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="DeporTV en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/deportv.webp" title="DeporTV"/>
-     </div>
-     <h2 class="title">DeporTV</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/nba-tv">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-     </div>
-     <div class="logo">
-      <img alt="NBA TV en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/nba.png" title="NBA TV"/>
-     </div>
-     <h2 class="title">NBA TV</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/win-sports">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-      <span class="badge">Colombia</span>
-     </div>
-     <div class="logo">
-      <img alt="Win Sports en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/win.png" title="Win Sports"/>
-     </div>
-     <h2 class="title">Win Sports</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/win-sports-premium">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-      <span class="badge">Colombia</span>
-     </div>
-     <div class="logo">
-      <img alt="Win Sports + en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/winsports.webp" title="Win Sports +"/>
-     </div>
-     <h2 class="title">Win Sports +</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/liga1max">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Deportes</span>
-      <span class="badge">Perú</span>
-     </div>
-     <div class="logo">
-      <img alt="Liga 1 Max en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/liga1max.webp" title="Liga1 MAX"/>
-     </div>
-     <h2 class="title">Liga1 MAX</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/discovery">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Documentales</span>
-     </div>
-     <div class="logo">
-      <img alt="Discovery Channel en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/discovery.webp" title="Discovery Channel"/>
-     </div>
-     <h2 class="title">Discovery Channel</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/discovery-world">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Documentales</span>
-     </div>
-     <div class="logo">
-      <img alt="Discovery World en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/disworld.webp" title="Discovery World"/>
-     </div>
-     <h2 class="title">Discovery World</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/discovery-theater">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Documentales</span>
-     </div>
-     <div class="logo">
-      <img alt="Discovery Theater en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/distheater.webp" title="Discovery Theater"/>
-     </div>
-     <h2 class="title">Discovery Theater</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/discovery-science">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Documentales</span>
-     </div>
-     <div class="logo">
-      <img alt="Discovery Science en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/disscience.webp" title="Discovery Science"/>
-     </div>
-     <h2 class="title">Discovery Science</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/discovery-tlc">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Documentales</span>
-     </div>
-     <div class="logo">
-      <img alt="Discovery TLC en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/tlc.webp" title="Discovery TLC"/>
-     </div>
-     <h2 class="title">Discovery TLC</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/discovery-turbo">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Documentales</span>
-     </div>
-     <div class="logo">
-      <img alt="Discovery Turbo en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/turbo.webp" title="Discovery Turbo"/>
-     </div>
-     <h2 class="title">Discovery Turbo</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/discovery-hyh">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Documentales</span>
-     </div>
-     <div class="logo">
-      <img alt="Discovery HyH en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/hyh.webp" title="Discovery HyH"/>
-     </div>
-     <h2 class="title">Discovery HyH</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/discovery-id">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Documentales</span>
-     </div>
-     <div class="logo">
-      <img alt="Discovery ID en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/id.webp" title="Discovery ID"/>
-     </div>
-     <h2 class="title">Discovery ID</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/lifetime">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Documentales</span>
-     </div>
-     <div class="logo">
-      <img alt="Lifetime en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/lifetime.webp" title="Lifetime"/>
-     </div>
-     <h2 class="title">Lifetime</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/history">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Documentales</span>
-     </div>
-     <div class="logo">
-      <img alt="History en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/history.webp" title="History"/>
-     </div>
-     <h2 class="title">History</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/history-2">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Documentales</span>
-     </div>
-     <div class="logo">
-      <img alt="History 2 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/history2.webp" title="History 2"/>
-     </div>
-     <h2 class="title">History 2</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/animal-planet">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Documentales</span>
-     </div>
-     <div class="logo">
-      <img alt="Animal Planet en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/aplanet.webp" title="Animal Planet"/>
-     </div>
-     <h2 class="title">Animal Planet</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/natgeo">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Documentales</span>
-     </div>
-     <div class="logo">
-      <img alt="National Geographic en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/natgeo.webp" title="National Geographic (Natgeo)"/>
-     </div>
-     <h2 class="title">National Geographic</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/telemax">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Documentales</span>
-     </div>
-     <div class="logo">
-      <img alt="Telemax en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/telemax.webp" title="Telemax (TLX HD)"/>
-     </div>
-     <h2 class="title">Telemax</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/film-and-arts">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Documentales</span>
-     </div>
-     <div class="logo">
-      <img alt="Film y Arts en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/film.png" title="Film y Arts"/>
-     </div>
-     <h2 class="title">Film &amp; Arts</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/sun">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Documentales</span>
-     </div>
-     <div class="logo">
-      <img alt="Sun Channel en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/sun.png" title="Sun Channel"/>
-     </div>
-     <h2 class="title">Sun Channel</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/food-network">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Gastronomía</span>
-     </div>
-     <div class="logo">
-      <img alt="Food Network en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/food.webp" title="Food Network"/>
-     </div>
-     <h2 class="title">Food Network</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/gourmet">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Gastronomía</span>
-     </div>
-     <div class="logo">
-      <img alt="El Gourmet en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/Group.svg" title="El Gourmet"/>
-     </div>
-     <h2 class="title">Gourmet</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/comedy-central">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="Comedy Central en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/comedy.webp" title="Comedy Central"/>
-     </div>
-     <h2 class="title">Comedy Central</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/telemundo-internacional">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="Telemundo Internacional en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/telemundo.png" title="Telemundo Internacional"/>
-     </div>
-     <h2 class="title">Telemundo Internacional</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/ae">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="AE en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/ae.webp" title="AE (A&amp;E)"/>
-     </div>
-     <h2 class="title">AE</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/cinecanal">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="Cinecanal en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/cinecanal.webp" title="Cinecanal"/>
-     </div>
-     <h2 class="title">Cinecanal</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/tnt">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="TNT en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/tnt.webp" title="TNT HD"/>
-     </div>
-     <h2 class="title">TNT</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/tnt-series">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="TNT Series en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/tntseries.webp" title="TNT Series"/>
-     </div>
-     <h2 class="title">TNT Series</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/tnt-novelas">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="TNT Novelas en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/tntnovelas.png" title="TNT Novelas (TBS)"/>
-     </div>
-     <h2 class="title">TNT Novelas</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/fx">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="FX HD en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/fx.webp" title="FX HD"/>
-     </div>
-     <h2 class="title">FX</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/warner">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="Warner Channel en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/warner.webp" title="Warner Channel"/>
-     </div>
-     <h2 class="title">Warner Channel</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/cinemax">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="Cinemax en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/cinemax.webp" title="Cinemax"/>
-     </div>
-     <h2 class="title">Cinemax</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/space">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="Space en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/space.webp" title="Space"/>
-     </div>
-     <h2 class="title">Space</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/star-channel">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="Star Channel en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/star.webp" title="Star Channel"/>
-     </div>
-     <h2 class="title">Star Channel</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/studio-universal">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="Studio Universal en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/studio.webp" title="Studio Universal"/>
-     </div>
-     <h2 class="title">Studio Universal</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/sony-channel">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="Sony Channel en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/sony.webp" title="Sony Channel"/>
-     </div>
-     <h2 class="title">Sony Channel</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/amc">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="AMC en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/amc.webp" title="AMC"/>
-     </div>
-     <h2 class="title">AMC</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/axn">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="AXN en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/axn.webp" title="AXN"/>
-     </div>
-     <h2 class="title">AXN</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/tcm">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="TCM en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/tcm.webp" title="TCM"/>
-     </div>
-     <h2 class="title">TCM</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/e">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="E! Entertainment en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/e.webp" title="E! Entertainment"/>
-     </div>
-     <h2 class="title">E! Entertainment</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/a3cine">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="A3CINE y A3Series en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/a3cine.png" title="A3CINE y A3Series"/>
-     </div>
-     <h2 class="title">A3CINE &amp; A3SERIES</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/cinear">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="Cine AR en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/cinear.png" title="Cine AR"/>
-     </div>
-     <h2 class="title">Cine AR</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/hbo">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="HBO en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/hbo.webp" title="HBO"/>
-     </div>
-     <h2 class="title">HBO</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/hbo-2">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="HBO 2 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/hbo2.webp" title="HBO 2"/>
-     </div>
-     <h2 class="title">HBO 2</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/hbo-plus">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="HBO Plus en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/hboplus.webp" title="HBO Plus"/>
-     </div>
-     <h2 class="title">HBO Plus</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/hbo-family">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="HBO Family en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/hbofam.webp" title="HBO Family"/>
-     </div>
-     <h2 class="title">HBO Family</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/hbo-xtreme">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="HBO Xtreme en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/hboxtreme.webp" title="HBO Xtreme"/>
-     </div>
-     <h2 class="title">HBO Xtreme</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/hbo-mundi">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="HBO Mundi en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/hbomundi.webp" title="HBO Mundi"/>
-     </div>
-     <h2 class="title">HBO Mundi</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/hbo-pop">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="HBO Pop en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/hbopop.webp" title="HBO Pop"/>
-     </div>
-     <h2 class="title">HBO Pop</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/hbo-sig">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="HBO Signature en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/hbosig.webp" title="HBO Signature"/>
-     </div>
-     <h2 class="title">HBO Signature</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/universal-cinema">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="Universal Cinema en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/universalcinema.webp" title="Universal Cinema"/>
-     </div>
-     <h2 class="title">Universal Cinema</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/universal-crime">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="Universal Crime en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/universalcrime.webp" title="Universal Crime"/>
-     </div>
-     <h2 class="title">Universal Crime</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/universal-comedy">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="Universal Comedy en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/universalcomedy.webp" title="Universal Comedy"/>
-     </div>
-     <h2 class="title">Universal Comedy</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/universal-reality">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="Universal Reality en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/universalreality.webp" title="Universal Reality"/>
-     </div>
-     <h2 class="title">Universal Reality</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/universal-premiere">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="Universal Premiere en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/universalpremiere.webp" title="Universal Premiere"/>
-     </div>
-     <h2 class="title">Universal Premiere</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/golden">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="Golden en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/Logo_Golden_TV.svg" title="Golden &amp; Golden edge"/>
-     </div>
-     <h2 class="title">Golden</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/estrellas">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="Las Estrellas en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/estrellas.png" title="Las Estrellas"/>
-     </div>
-     <h2 class="title">Las Estrellas</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1SWFZ5YjJOb1lXNXVaV3c9">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="Eurochannel en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/eurochannel.png" title="Eurochannel"/>
-     </div>
-     <h2 class="title">Eurochannel</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1SWFZ5YjNCaFgwVjFjbTl3WVE=">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="Europa Europa en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/eueu.png" title="Europa Europa"/>
-     </div>
-     <h2 class="title">Europa Europa</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1SV3hmUjJGeVlXZGw=">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="El Garage TV en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/garagetv.webp" title="El Garage TV"/>
-     </div>
-     <h2 class="title">El Garage TV</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1TRzlzWVY5VVZnPT0=">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="¡Hola! TV en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/holatv.jpg" title="¡Hola! TV"/>
-     </div>
-     <h2 class="title">¡Hola! TV</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1RVTFEWDFObGNtbGxjdz09">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="AMC Series en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/amc-sr.png" title="AMC Series"/>
-     </div>
-     <h2 class="title">AMC Series</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1WVk5CWDA1bGRIZHZjbXM9">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="USA Nework en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/uss.png" title="USA Network"/>
-     </div>
-     <h2 class="title">USA Network</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1WRlkxWDAxdmJtUmw=">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="TV5MONDE América Latina en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/tv5monde.png" title="TV5MONDE América Latina"/>
-     </div>
-     <h2 class="title">TV5MONDE América Latina</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1SWFZ5YjI1bGQzTT0=">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Europa</span>
-     </div>
-     <div class="logo">
-      <img alt="Euronews en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/euronews.png" title="Euronews"/>
-     </div>
-     <h2 class="title">Euronews</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1WRlpmUlhOd1lXNWg=">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">España</span>
-     </div>
-     <div class="logo">
-      <img alt="TVE España en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/tvees.png" title="TVE España"/>
-     </div>
-     <h2 class="title">TVE Internacional</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/antena3">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">España</span>
-     </div>
-     <div class="logo">
-      <img alt="Antena 3 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/antena3.webp" title="Antena 3"/>
-     </div>
-     <h2 class="title">Antena 3</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/universo">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Estados Unidos</span>
-     </div>
-     <div class="logo">
-      <img alt="Universo en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/universo.png" title="Universo"/>
-     </div>
-     <h2 class="title">Universo</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/univision">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Estados Unidos</span>
-     </div>
-     <div class="logo">
-      <img alt="Univisíon en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/univision.png" title="Univisíon"/>
-     </div>
-     <h2 class="title">Univisíon</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/adult-swim">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Entretenimiento</span>
-     </div>
-     <div class="logo">
-      <img alt="Adult Swim en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/adults.png" title="Adult Swim"/>
-     </div>
-     <h2 class="title">Adult Swim</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/cartoon-network">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Infantiles</span>
-     </div>
-     <div class="logo">
-      <img alt="Cartoon Network en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/cn.webp" title="Cartoon Network"/>
-     </div>
-     <h2 class="title">Cartoon Network</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/cartoonito">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Infantiles</span>
-     </div>
-     <div class="logo">
-      <img alt="Cartoonito en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/cart.webp" title="Cartoonito"/>
-     </div>
-     <h2 class="title">Cartoonito</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/disney-channel">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Infantiles</span>
-     </div>
-     <div class="logo">
-      <img alt="Disney Channel en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/disney.webp" title="Disney Channel"/>
-     </div>
-     <h2 class="title">Disney Channel</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/disney-jr">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Infantiles</span>
-     </div>
-     <div class="logo">
-      <img alt="Disney Junior en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/disneyjr.webp" title="Disney Junior"/>
-     </div>
-     <h2 class="title">Disney Junior</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/discovery-kids">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Infantiles</span>
-     </div>
-     <div class="logo">
-      <img alt="Discovery Kids en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/diskids.webp" title="Discovery Kids"/>
-     </div>
-     <h2 class="title">Discovery Kids</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/nick">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Infantiles</span>
-     </div>
-     <div class="logo">
-      <img alt="Nickelodeon en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/nick.png" title="Nickelodeon"/>
-     </div>
-     <h2 class="title">Nickelodeon</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/nickjr">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Infantiles</span>
-     </div>
-     <div class="logo">
-      <img alt="Nick Jr. en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/nickjr.webp" title="Nick Jr."/>
-     </div>
-     <h2 class="title">Nick Jr.</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/dreamworks">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Infantiles</span>
-     </div>
-     <div class="logo">
-      <img alt="DreamWorks en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/dream.png" title="DreamWorks"/>
-     </div>
-     <h2 class="title">DreamWorks</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1VRUZMUVY5UVFVdEI=">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Infantiles</span>
-     </div>
-     <div class="logo">
-      <img alt="Pakapaka en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/pakapaka.png" title="Pakapaka"/>
-     </div>
-     <h2 class="title">Pakapaka</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1VWFZwWlhKdlgwaEU=">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Música</span>
-     </div>
-     <div class="logo">
-      <img alt="Quiero Música en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/quiero.webp" title="Quiero Música en mi idioma"/>
-     </div>
-     <h2 class="title">Quiero Música</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1UVlJXWDBoRQ==">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Música</span>
-     </div>
-     <div class="logo">
-      <img alt="MTV en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/mtv.webp" title="MTV"/>
-     </div>
-     <h2 class="title">MTV</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1TRlJX">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Música</span>
-     </div>
-     <div class="logo">
-      <img alt="HTV en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/htv.webp" title="HTV"/>
-     </div>
-     <h2 class="title">HTV</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1RMDA9">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Música</span>
-     </div>
-     <div class="logo">
-      <img alt="CM (Canal de la Música) en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/cm.webp" title="CM"/>
-     </div>
-     <h2 class="title">CM</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/en-vivo/flow-music">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Música</span>
-     </div>
-     <div class="logo">
-      <img alt="Flow Music en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/flowmusic.webp" title="Flow Music"/>
-     </div>
-     <h2 class="title">Flow Music</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1SWFpsYm5SdmMxOUlSRjlWZVE9PQ==">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Uruguay</span>
-     </div>
-     <div class="logo">
-      <img alt="Flow Eventos 1 Uruguay en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/eventos.png" title="Flow Eventos 1 Uruguay"/>
-     </div>
-     <h2 class="title">Flow Eventos 1 UY</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1SWFpsYm5SdmN6RklSQQ==">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="TyC Sports 2 (Flow Sports)" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/flowsports1.png" title="TyC Sports 2 (Flow Sports)"/>
-     </div>
-     <h2 class="title">Flow Sports 1</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1SWFpsYm5SdmMxOHlYMGhF">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Argentina</span>
-     </div>
-     <div class="logo">
-      <img alt="Flow Eventos 2" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/flowsports2.png" title="Flow Eventos 2"/>
-     </div>
-     <h2 class="title">Flow Sports 2</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1WbVZ1ZFhNPQ==">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Adultos (+18)</span>
-     </div>
-     <div class="logo">
-      <img alt="Venus en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/venuspaj.png" title="Venus"/>
-     </div>
-     <h2 class="title">Venus</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1VMlY0ZEhKbGJXVQ==">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Adultos (+18)</span>
-     </div>
-     <div class="logo">
-      <img alt="Sextreme en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/sextreme.png" title="Sextreme"/>
-     </div>
-     <h2 class="title">SeXtreme</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-   <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1VR3hoZVdKdmVR">
-    <div class="canal-body">
-     <div class="badges">
-      <span class="badge">Adultos (+18)</span>
-     </div>
-     <div class="logo">
-      <img alt="Playboy en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/playboy.png" title="Playboy"/>
-     </div>
-     <h2 class="title">Playboy TV</h2>
-     <div class="actions">
-      <span class="btn">Ver canal</span>
-     </div>
-    </div>
-   </a>
-</section>
+  <!-- Grilla de Canales integrada dentro del .wrap para emparejar simétricamente -->
+  <section id="grid" class="grid">
+    <a class="canal" href="/tvlibre/en-vivo-telefe.html">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="Telefe en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/telefe.png" title="Telefe"/>
+       </div>
+       <h2 class="title">Telefe</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/el-trece">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="El Trece en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/eltrece.webp" title="El Trece (13)"/>
+       </div>
+       <h2 class="title">El Trece</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/el-nueve">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="El Nueve en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/nueve.webp" title="El Nueve (9)"/>
+       </div>
+       <h2 class="title">El Nueve</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/tv-publica">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="TV Pública en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/tvpublica.webp" title="TV Pública"/>
+       </div>
+       <h2 class="title">TV Pública</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/america-tv">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="América TV en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/america.webp" title="América TV"/>
+       </div>
+       <h2 class="title">América TV</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/cronica">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="Crónica TV en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/cronica.png" title="Crónica TV"/>
+       </div>
+       <h2 class="title">Crónica TV</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/c5n">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="C5N en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/c5n.webp" title="C5N"/>
+       </div>
+       <h2 class="title">C5N</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/tn">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="TN en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/tn.png" title="TN"/>
+       </div>
+       <h2 class="title">TN</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/a24">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="A24 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/a24.webp" title="A24"/>
+       </div>
+       <h2 class="title">A24</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/canal-26">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="Canal 26 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/canal26.webp" title="Canal 26"/>
+       </div>
+       <h2 class="title">Canal 26</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/ln">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="La Nacion en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/ln.webp" title="La Nacion (LN+)"/>
+       </div>
+       <h2 class="title">La Nación</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/dtv">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="Diputados TV en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/dtv.webp" title="Diputados TV (DTV)"/>
+       </div>
+       <h2 class="title">Diputados TV</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/volver">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="Volver en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/volver.webp" title="Volver"/>
+       </div>
+       <h2 class="title">Volver</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/ciudad-magazine">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="Ciudad Magazine en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/ciudad.webp" title="Ciudad Magazine"/>
+       </div>
+       <h2 class="title">Ciudad Magazine</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/bravotv">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="Bravo TV en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/bravotv.png" title="Bravo TV"/>
+       </div>
+       <h2 class="title">Bravo TV</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/nettv">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="Net TV en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/nettv.webp" title="Net TV"/>
+       </div>
+       <h2 class="title">Net TV</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/ip">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="Ip Noticias en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/ip.webp" title="Ip Noticias"/>
+       </div>
+       <h2 class="title">Ip Noticias</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/encuentro">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="Encuentro en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/encuentro.webp" title="Encuentro"/>
+       </div>
+       <h2 class="title">Encuentro</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/canaldelaciudad">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="Canal de la Ciudad en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/canaldelaciudad.webp" title="Canal de la Ciudad"/>
+       </div>
+       <h2 class="title">Canal de la Ciudad</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/televida">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="Televida en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/televida.webp" title="Televida (Canal 9 Mendoza)"/>
+       </div>
+       <h2 class="title">Televida</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/metro">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="Metro Nos Vemos en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/metro.png" title="Metro Nos Vemos"/>
+       </div>
+       <h2 class="title">Metro Nos Vemos</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/kzo">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="KZO en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/kzowhite.png" title="KZO"/>
+       </div>
+       <h2 class="title">KZO</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/canal12cordoba/">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="Canal 12 de Córdoba en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/docor.png" title="Canal 12 (doce Córdoba)"/>
+       </div>
+       <h2 class="title">Canal 12 de Córdoba</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/argentinisima/">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="Argentinísima Satelital en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/arsat.png" title="Argentinísima Satelital"/>
+       </div>
+       <h2 class="title">Argentinísima</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/rural">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="Rural en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/rural.webp" title="Rural"/>
+       </div>
+       <h2 class="title">Rural</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/caracoltv">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Colombia</span>
+       </div>
+       <div class="logo">
+        <img alt="Caracol TV en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/caracoltv.webp" title="Caracol TV"/>
+       </div>
+       <h2 class="title">Caracol TV</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/eventos/sin-chat/?r=aHR0cHM6Ly9kZXNkZXBhcmFndWF5LmNvbS9leHRlcm5hbC8/dmVudXNtZWRpYQ==">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Paraguay</span>
+       </div>
+       <div class="logo">
+        <img alt="Venus Paraguay en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/venus.png" title="Venus Media Paraguay"/>
+       </div>
+       <h2 class="title">Venus</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/canal5-mx">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">México</span>
+       </div>
+       <div class="logo">
+        <img alt="Canal 5 MX en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/canal5.webp" title="Canal 5 MX"/>
+       </div>
+       <h2 class="title">Canal 5</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/tyc-sports">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="TyC Sports en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/tyc.webp" title="TyC Sports"/>
+       </div>
+       <h2 class="title">TyC Sports</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/tnt-sports">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="TNT Sports Premium Argentina en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/tntar.svg" title="TNT Sports Premium Argentina"/>
+       </div>
+       <h2 class="title">TNT Sports Premium</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/espn-premium">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="ESPN Premium en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/espnpr.webp" title="ESPN Premium"/>
+       </div>
+       <h2 class="title">ESPN Premium</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/dsports">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+       </div>
+       <div class="logo">
+        <img alt="DirecTV Sports (DSports) en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/dsports.webp" title="DSports"/>
+       </div>
+       <h2 class="title">DSports</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/dsports-2">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+       </div>
+       <div class="logo">
+        <img alt="DirecTV Sports 2 (DSports 2) en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/dsports2.webp" title="DSports 2"/>
+       </div>
+       <h2 class="title">DSports 2</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/dsports-plus">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+       </div>
+       <div class="logo">
+        <img alt="DirecTV Sports + (DSports +) en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/dsportsplus.webp" title="DSports Plus"/>
+       </div>
+       <h2 class="title">DSports Plus</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/espn">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+       </div>
+       <div class="logo">
+        <img alt="ESPN 1 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/espn.webp" title="ESPN 1"/>
+       </div>
+       <h2 class="title">ESPN 1</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/espn-2">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+       </div>
+       <div class="logo">
+        <img alt="ESPN 2 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/espn2.webp" title="ESPN 2"/>
+       </div>
+       <h2 class="title">ESPN 2</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/espn-3">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+       </div>
+       <div class="logo">
+        <img alt="ESPN 3 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/espn3.webp" title="ESPN 3"/>
+       </div>
+       <h2 class="title">ESPN 3</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/espn-4">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+       </div>
+       <div class="logo">
+        <img alt="ESPN 4 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/espn4.webp" title="ESPN 4"/>
+       </div>
+       <h2 class="title">ESPN 4</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/espn-5">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+       </div>
+       <div class="logo">
+        <img alt="ESPN 5 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/espn5.webp" title="ESPN 5"/>
+       </div>
+       <h2 class="title">ESPN 5</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/espn-6">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+       </div>
+       <div class="logo">
+        <img alt="ESPN 6 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/espn6.webp" title="ESPN 6"/>
+       </div>
+       <h2 class="title">ESPN 6</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/espn-7">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+       </div>
+       <div class="logo">
+        <img alt="ESPN 7 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/espn7.png" title="ESPN 7"/>
+       </div>
+       <h2 class="title">ESPN 7</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/fox-sports">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="FOX Sports 1 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/foxnew.png" title="FOX Sports"/>
+       </div>
+       <h2 class="title">FOX Sports 1</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/fox-sports-2">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="FOX Sports 2 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/foxnew2.png" title="FOX Sports 2"/>
+       </div>
+       <h2 class="title">FOX Sports 2</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/fox-sports-3">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="FOX Sports 3 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/foxnew3.png" title="FOX Sports 3"/>
+       </div>
+       <h2 class="title">FOX Sports 3</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/fox-sports-mx">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+        <span class="badge">México</span>
+       </div>
+       <div class="logo">
+        <img alt="FOX Sports MX en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/foxmx.png" title="FOX Sports 1 México"/>
+       </div>
+       <h2 class="title">FOX Sports 1 MX</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/fox-sports-2-mx">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+        <span class="badge">México</span>
+       </div>
+       <div class="logo">
+        <img alt="FOX Sports 2 MX en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/fox2mx.png" title="FOX Sports 2 México"/>
+       </div>
+       <h2 class="title">FOX Sports 2 MX</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/fox-sports-3-mx">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+        <span class="badge">México</span>
+       </div>
+       <div class="logo">
+        <img alt="FOX Sports 3 MX en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/fox3mx.png" title="FOX Sports 3 | México"/>
+       </div>
+       <h2 class="title">FOX Sports 3 MX</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/fox-sports-premium-mx">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+        <span class="badge">México</span>
+       </div>
+       <div class="logo">
+        <img alt="FOX Sports Premium México en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/foxpr.png" title="FOX Sports Premium México"/>
+       </div>
+       <h2 class="title">FOX Sports Premium MX</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/espn-mx">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+        <span class="badge">México</span>
+       </div>
+       <div class="logo">
+        <img alt="ESPN 1 México en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/espn.webp" title="ESPN 1 México"/>
+       </div>
+       <h2 class="title">ESPN 1 MX</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/espn-2-mx">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+        <span class="badge">México</span>
+       </div>
+       <div class="logo">
+        <img alt="ESPN 2 México en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/espn2.webp" title="ESPN 2 México"/>
+       </div>
+       <h2 class="title">ESPN 2 MX</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/espn-3-mx">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+        <span class="badge">México</span>
+       </div>
+       <div class="logo">
+        <img alt="ESPN 3 México en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/espn3.webp" title="ESPN 3 México"/>
+       </div>
+       <h2 class="title">ESPN 3 MX</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/espn-4-mx">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+        <span class="badge">México</span>
+       </div>
+       <div class="logo">
+        <img alt="ESPN 4 México en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/espn4.webp" title="ESPN 4 México"/>
+       </div>
+       <h2 class="title">ESPN 4 MX</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/tudn">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+       </div>
+       <div class="logo">
+        <img alt="TUDN en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/tudn.png" title="TUDN"/>
+       </div>
+       <h2 class="title">TUDN</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/espn-deportes">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+       </div>
+       <div class="logo">
+        <img alt="ESPN Deportes en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/espndep.png" title="ESPN Deportes"/>
+       </div>
+       <h2 class="title">ESPN Deportes</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/fox-deportes">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+       </div>
+       <div class="logo">
+        <img alt="FOX Deportes en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/foxdep.png" title="FOX Deportes"/>
+       </div>
+       <h2 class="title">FOX Deportes</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/deportv">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="DeporTV en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/deportv.webp" title="DeporTV"/>
+       </div>
+       <h2 class="title">DeporTV</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/nba-tv">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+       </div>
+       <div class="logo">
+        <img alt="NBA TV en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/nba.png" title="NBA TV"/>
+       </div>
+       <h2 class="title">NBA TV</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/win-sports">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+        <span class="badge">Colombia</span>
+       </div>
+       <div class="logo">
+        <img alt="Win Sports en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/win.png" title="Win Sports"/>
+       </div>
+       <h2 class="title">Win Sports</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/win-sports-premium">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+        <span class="badge">Colombia</span>
+       </div>
+       <div class="logo">
+        <img alt="Win Sports + en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/winsports.webp" title="Win Sports +"/>
+       </div>
+       <h2 class="title">Win Sports +</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/liga1max">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Deportes</span>
+        <span class="badge">Perú</span>
+       </div>
+       <div class="logo">
+        <img alt="Liga 1 Max en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/liga1max.webp" title="Liga1 MAX"/>
+       </div>
+       <h2 class="title">Liga1 MAX</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/discovery">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Documentales</span>
+       </div>
+       <div class="logo">
+        <img alt="Discovery Channel en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/discovery.webp" title="Discovery Channel"/>
+       </div>
+       <h2 class="title">Discovery Channel</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/discovery-world">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Documentales</span>
+       </div>
+       <div class="logo">
+        <img alt="Discovery World en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/disworld.webp" title="Discovery World"/>
+       </div>
+       <h2 class="title">Discovery World</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/discovery-theater">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Documentales</span>
+       </div>
+       <div class="logo">
+        <img alt="Discovery Theater en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/distheater.webp" title="Discovery Theater"/>
+       </div>
+       <h2 class="title">Discovery Theater</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/discovery-science">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Documentales</span>
+       </div>
+       <div class="logo">
+        <img alt="Discovery Science en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/disscience.webp" title="Discovery Science"/>
+       </div>
+       <h2 class="title">Discovery Science</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/discovery-tlc">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Documentales</span>
+       </div>
+       <div class="logo">
+        <img alt="Discovery TLC en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/tlc.webp" title="Discovery TLC"/>
+       </div>
+       <h2 class="title">Discovery TLC</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/discovery-turbo">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Documentales</span>
+       </div>
+       <div class="logo">
+        <img alt="Discovery Turbo en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/turbo.webp" title="Discovery Turbo"/>
+       </div>
+       <h2 class="title">Discovery Turbo</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/discovery-hyh">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Documentales</span>
+       </div>
+       <div class="logo">
+        <img alt="Discovery HyH en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/hyh.webp" title="Discovery HyH"/>
+       </div>
+       <h2 class="title">Discovery HyH</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/discovery-id">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Documentales</span>
+       </div>
+       <div class="logo">
+        <img alt="Discovery ID en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/id.webp" title="Discovery ID"/>
+       </div>
+       <h2 class="title">Discovery ID</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/lifetime">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Documentales</span>
+       </div>
+       <div class="logo">
+        <img alt="Lifetime en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/lifetime.webp" title="Lifetime"/>
+       </div>
+       <h2 class="title">Lifetime</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/history">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Documentales</span>
+       </div>
+       <div class="logo">
+        <img alt="History en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/history.webp" title="History"/>
+       </div>
+       <h2 class="title">History</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/history-2">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Documentales</span>
+       </div>
+       <div class="logo">
+        <img alt="History 2 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/history2.webp" title="History 2"/>
+       </div>
+       <h2 class="title">History 2</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/animal-planet">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Documentales</span>
+       </div>
+       <div class="logo">
+        <img alt="Animal Planet en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/aplanet.webp" title="Animal Planet"/>
+       </div>
+       <h2 class="title">Animal Planet</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/natgeo">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Documentales</span>
+       </div>
+       <div class="logo">
+        <img alt="National Geographic en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/natgeo.webp" title="National Geographic (Natgeo)"/>
+       </div>
+       <h2 class="title">National Geographic</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/telemax">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Documentales</span>
+       </div>
+       <div class="logo">
+        <img alt="Telemax en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/telemax.webp" title="Telemax (TLX HD)"/>
+       </div>
+       <h2 class="title">Telemax</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/film-and-arts">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Documentales</span>
+       </div>
+       <div class="logo">
+        <img alt="Film y Arts en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/film.png" title="Film y Arts"/>
+       </div>
+       <h2 class="title">Film &amp; Arts</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/sun">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Documentales</span>
+       </div>
+       <div class="logo">
+        <img alt="Sun Channel en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/sun.png" title="Sun Channel"/>
+       </div>
+       <h2 class="title">Sun Channel</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/food-network">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Gastronomía</span>
+       </div>
+       <div class="logo">
+        <img alt="Food Network en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/food.webp" title="Food Network"/>
+       </div>
+       <h2 class="title">Food Network</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/gourmet">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Gastronomía</span>
+       </div>
+       <div class="logo">
+        <img alt="El Gourmet en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/Group.svg" title="El Gourmet"/>
+       </div>
+       <h2 class="title">Gourmet</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/comedy-central">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="Comedy Central en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/comedy.webp" title="Comedy Central"/>
+       </div>
+       <h2 class="title">Comedy Central</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/telemundo-internacional">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="Telemundo Internacional en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/telemundo.png" title="Telemundo Internacional"/>
+       </div>
+       <h2 class="title">Telemundo Internacional</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/ae">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="AE en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/ae.webp" title="AE (A&amp;E)"/>
+       </div>
+       <h2 class="title">AE</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/cinecanal">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="Cinecanal en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/cinecanal.webp" title="Cinecanal"/>
+       </div>
+       <h2 class="title">Cinecanal</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/tnt">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="TNT en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/tnt.webp" title="TNT HD"/>
+       </div>
+       <h2 class="title">TNT</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/tnt-series">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="TNT Series en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/tntseries.webp" title="TNT Series"/>
+       </div>
+       <h2 class="title">TNT Series</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/tnt-novelas">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="TNT Novelas en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/tntnovelas.png" title="TNT Novelas (TBS)"/>
+       </div>
+       <h2 class="title">TNT Novelas</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/fx">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="FX HD en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/fx.webp" title="FX HD"/>
+       </div>
+       <h2 class="title">FX</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/warner">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="Warner Channel en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/warner.webp" title="Warner Channel"/>
+       </div>
+       <h2 class="title">Warner Channel</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/cinemax">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="Cinemax en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/cinemax.webp" title="Cinemax"/>
+       </div>
+       <h2 class="title">Cinemax</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/space">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="Space en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/space.webp" title="Space"/>
+       </div>
+       <h2 class="title">Space</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/star-channel">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="Star Channel en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/star.webp" title="Star Channel"/>
+       </div>
+       <h2 class="title">Star Channel</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/studio-universal">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="Studio Universal en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/studio.webp" title="Studio Universal"/>
+       </div>
+       <h2 class="title">Studio Universal</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/sony-channel">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="Sony Channel en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/sony.webp" title="Sony Channel"/>
+       </div>
+       <h2 class="title">Sony Channel</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/amc">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="AMC en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/amc.webp" title="AMC"/>
+       </div>
+       <h2 class="title">AMC</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/axn">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="AXN en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/axn.webp" title="AXN"/>
+       </div>
+       <h2 class="title">AXN</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/tcm">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="TCM en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/tcm.webp" title="TCM"/>
+       </div>
+       <h2 class="title">TCM</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/e">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="E! Entertainment en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/e.webp" title="E! Entertainment"/>
+       </div>
+       <h2 class="title">E! Entertainment</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/a3cine">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="A3CINE y A3Series en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/a3cine.png" title="A3CINE y A3Series"/>
+       </div>
+       <h2 class="title">A3CINE &amp; A3SERIES</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/cinear">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="Cine AR en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/cinear.png" title="Cine AR"/>
+       </div>
+       <h2 class="title">Cine AR</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/hbo">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="HBO en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/hbo.webp" title="HBO"/>
+       </div>
+       <h2 class="title">HBO</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/hbo-2">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="HBO 2 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/hbo2.webp" title="HBO 2"/>
+       </div>
+       <h2 class="title">HBO 2</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/hbo-plus">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="HBO Plus en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/hboplus.webp" title="HBO Plus"/>
+       </div>
+       <h2 class="title">HBO Plus</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/hbo-family">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="HBO Family en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/hbofam.webp" title="HBO Family"/>
+       </div>
+       <h2 class="title">HBO Family</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/hbo-xtreme">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="HBO Xtreme en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/hboxtreme.webp" title="HBO Xtreme"/>
+       </div>
+       <h2 class="title">HBO Xtreme</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/hbo-mundi">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="HBO Mundi en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/hbomundi.webp" title="HBO Mundi"/>
+       </div>
+       <h2 class="title">HBO Mundi</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/hbo-pop">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="HBO Pop en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/hbopop.webp" title="HBO Pop"/>
+       </div>
+       <h2 class="title">HBO Pop</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/hbo-sig">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="HBO Signature en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/hbosig.webp" title="HBO Signature"/>
+       </div>
+       <h2 class="title">HBO Signature</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/universal-cinema">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="Universal Cinema en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/universalcinema.webp" title="Universal Cinema"/>
+       </div>
+       <h2 class="title">Universal Cinema</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/universal-crime">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="Universal Crime en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/universalcrime.webp" title="Universal Crime"/>
+       </div>
+       <h2 class="title">Universal Crime</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/universal-comedy">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="Universal Comedy en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/universalcomedy.webp" title="Universal Comedy"/>
+       </div>
+       <h2 class="title">Universal Comedy</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/universal-reality">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="Universal Reality en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/universalreality.webp" title="Universal Reality"/>
+       </div>
+       <h2 class="title">Universal Reality</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/universal-premiere">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="Universal Premiere en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/universalpremiere.webp" title="Universal Premiere"/>
+       </div>
+       <h2 class="title">Universal Premiere</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/golden">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="Golden en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/Logo_Golden_TV.svg" title="Golden &amp; Golden edge"/>
+       </div>
+       <h2 class="title">Golden</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/estrellas">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="Las Estrellas en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/estrellas.png" title="Las Estrellas"/>
+       </div>
+       <h2 class="title">Las Estrellas</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1SWFZ5YjJOb1lXNXVaV3c9">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="Eurochannel en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/eurochannel.png" title="Eurochannel"/>
+       </div>
+       <h2 class="title">Eurochannel</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1SWFZ5YjNCaFgwVjFjbTl3WVE=">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="Europa Europa en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/eueu.png" title="Europa Europa"/>
+       </div>
+       <h2 class="title">Europa Europa</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1SV3hmUjJGeVlXZGw=">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="El Garage TV en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/garagetv.webp" title="El Garage TV"/>
+       </div>
+       <h2 class="title">El Garage TV</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1TRzlzWVY5VVZnPT0=">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="¡Hola! TV en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/holatv.jpg" title="¡Hola! TV"/>
+       </div>
+       <h2 class="title">¡Hola! TV</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1RVTFEWDFObGNtbGxjdz09">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="AMC Series en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/amc-sr.png" title="AMC Series"/>
+       </div>
+       <h2 class="title">AMC Series</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1WVk5CWDA1bGRIZHZjbXM9">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="USA Nework en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/uss.png" title="USA Network"/>
+       </div>
+       <h2 class="title">USA Network</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1WRlkxWDAxdmJtUmw=">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="TV5MONDE América Latina en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/tv5monde.png" title="TV5MONDE América Latina"/>
+       </div>
+       <h2 class="title">TV5MONDE América Latina</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1SWFZ5YjI1bGQzTT0=">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Europa</span>
+       </div>
+       <div class="logo">
+        <img alt="Euronews en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/euronews.png" title="Euronews"/>
+       </div>
+       <h2 class="title">Euronews</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1WRlpmUlhOd1lXNWg=">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">España</span>
+       </div>
+       <div class="logo">
+        <img alt="TVE España en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/tvees.png" title="TVE España"/>
+       </div>
+       <h2 class="title">TVE Internacional</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/antena3">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">España</span>
+       </div>
+       <div class="logo">
+        <img alt="Antena 3 en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/antena3.webp" title="Antena 3"/>
+       </div>
+       <h2 class="title">Antena 3</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/universo">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Estados Unidos</span>
+       </div>
+       <div class="logo">
+        <img alt="Universo en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/universo.png" title="Universo"/>
+       </div>
+       <h2 class="title">Universo</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/univision">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Estados Unidos</span>
+       </div>
+       <div class="logo">
+        <img alt="Univisíon en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/univision.png" title="Univisíon"/>
+       </div>
+       <h2 class="title">Univisíon</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/adult-swim">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Entretenimiento</span>
+       </div>
+       <div class="logo">
+        <img alt="Adult Swim en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/adults.png" title="Adult Swim"/>
+       </div>
+       <h2 class="title">Adult Swim</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/cartoon-network">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Infantiles</span>
+       </div>
+       <div class="logo">
+        <img alt="Cartoon Network en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/cn.webp" title="Cartoon Network"/>
+       </div>
+       <h2 class="title">Cartoon Network</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/cartoonito">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Infantiles</span>
+       </div>
+       <div class="logo">
+        <img alt="Cartoonito en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/cart.webp" title="Cartoonito"/>
+       </div>
+       <h2 class="title">Cartoonito</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/disney-channel">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Infantiles</span>
+       </div>
+       <div class="logo">
+        <img alt="Disney Channel en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/disney.webp" title="Disney Channel"/>
+       </div>
+       <h2 class="title">Disney Channel</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/disney-jr">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Infantiles</span>
+       </div>
+       <div class="logo">
+        <img alt="Disney Junior en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/disneyjr.webp" title="Disney Junior"/>
+       </div>
+       <h2 class="title">Disney Junior</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/discovery-kids">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Infantiles</span>
+       </div>
+       <div class="logo">
+        <img alt="Discovery Kids en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/diskids.webp" title="Discovery Kids"/>
+       </div>
+       <h2 class="title">Discovery Kids</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/nick">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Infantiles</span>
+       </div>
+       <div class="logo">
+        <img alt="Nickelodeon en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/nick.png" title="Nickelodeon"/>
+       </div>
+       <h2 class="title">Nickelodeon</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/nickjr">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Infantiles</span>
+       </div>
+       <div class="logo">
+        <img alt="Nick Jr. en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/nickjr.webp" title="Nick Jr."/>
+       </div>
+       <h2 class="title">Nick Jr.</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/dreamworks">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Infantiles</span>
+       </div>
+       <div class="logo">
+        <img alt="DreamWorks en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/dream.png" title="DreamWorks"/>
+       </div>
+       <h2 class="title">DreamWorks</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1VRUZMUVY5UVFVdEI=">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Infantiles</span>
+       </div>
+       <div class="logo">
+        <img alt="Pakapaka en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/pakapaka.png" title="Pakapaka"/>
+       </div>
+       <h2 class="title">Pakapaka</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1VWFZwWlhKdlgwaEU=">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Música</span>
+       </div>
+       <div class="logo">
+        <img alt="Quiero Música en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/quiero.webp" title="Quiero Música en mi idioma"/>
+       </div>
+       <h2 class="title">Quiero Música</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1UVlJXWDBoRQ==">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Música</span>
+       </div>
+       <div class="logo">
+        <img alt="MTV en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/mtv.webp" title="MTV"/>
+       </div>
+       <h2 class="title">MTV</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1TRlJX">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Música</span>
+       </div>
+       <div class="logo">
+        <img alt="HTV en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/htv.webp" title="HTV"/>
+       </div>
+       <h2 class="title">HTV</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1RMDA9">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Música</span>
+       </div>
+       <div class="logo">
+        <img alt="CM (Canal de la Música) en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/cm.webp" title="CM"/>
+       </div>
+       <h2 class="title">CM</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/en-vivo/flow-music">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Música</span>
+       </div>
+       <div class="logo">
+        <img alt="Flow Music en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/flowmusic.webp" title="Flow Music"/>
+       </div>
+       <h2 class="title">Flow Music</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1SWFpsYm5SdmMxOUlSRjlWZVE9PQ==">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Uruguay</span>
+       </div>
+       <div class="logo">
+        <img alt="Flow Eventos 1 Uruguay en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/eventos.png" title="Flow Eventos 1 Uruguay"/>
+       </div>
+       <h2 class="title">Flow Eventos 1 UY</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1SWFpsYm5SdmN6RklSQQ==">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="TyC Sports 2 (Flow Sports)" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/flowsports1.png" title="TyC Sports 2 (Flow Sports)"/>
+       </div>
+       <h2 class="title">Flow Sports 1</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1SWFpsYm5SdmMxOHlYMGhF">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Argentina</span>
+       </div>
+       <div class="logo">
+        <img alt="Flow Eventos 2" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/flowsports2.png" title="Flow Eventos 2"/>
+       </div>
+       <h2 class="title">Flow Sports 2</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1WbVZ1ZFhNPQ==">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Adultos (+18)</span>
+       </div>
+       <div class="logo">
+        <img alt="Venus en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/venuspaj.png" title="Venus"/>
+       </div>
+       <h2 class="title">Venus</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1VMlY0ZEhKbGJXVQ==">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Adultos (+18)</span>
+       </div>
+       <div class="logo">
+        <img alt="Sextreme en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/sextreme.png" title="Sextreme"/>
+       </div>
+       <h2 class="title">SeXtreme</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+     <a class="canal" href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1VR3hoZVdKdmVR">
+      <div class="canal-body">
+       <div class="badges">
+        <span class="badge">Adultos (+18)</span>
+       </div>
+       <div class="logo">
+        <img alt="Playboy en VIVO online" decoding="async" fetchpriority="low" loading="lazy" src="//bestleague.pl/img/playboy.png" title="Playboy"/>
+       </div>
+       <h2 class="title">Playboy TV</h2>
+       <div class="actions">
+        <span class="btn">Ver canal</span>
+       </div>
+      </div>
+     </a>
+  </section>
+</main>
 
 <footer>
   <div class="wrap">
